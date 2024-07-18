@@ -1,0 +1,63 @@
+.supportcontainer{
+    grid-area: main;
+    background-color: #daeef563;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 3%;
+    gap: 20px;
+    height: 100%;
+}
+
+.dashsupportcontainer{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.grpleft{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grpname{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.grpmembers {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grpright{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.grpright button{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.grpview button{
+    background-color: #86c5bf;
+}
+
+.grpleave button{
+    background-color: #e27259;
+}
+
+.grpdashchat button{
+    background-color: #f7c594;
+}

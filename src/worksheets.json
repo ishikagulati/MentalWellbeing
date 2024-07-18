@@ -1,0 +1,111 @@
+
+
+
+[
+    {
+      "id": 1,
+      "image": "../../assets/WorksheetsImgs/challenging negative thoughts.jpg",
+      "title": "Challenging Negative Thoughts",
+      "content": "Techniques to question and reframe negative thoughts, fostering a positive mindset.",
+      "pdf": ""
+    },
+    {
+      "id": 2,
+      "image": "../../assets/WorksheetsImgs/coping-skills-for-depression.jpg",
+      "title": "Coping Skills for Depression",
+      "content": "Effective coping mechanisms to manage symptoms and improve daily life with depression.",
+      "pdf": ""
+    },
+    {
+      "id": 3,
+      "image": "../../assets/WorksheetsImgs/decatastrophising.jpg",
+      "title": "De-Catastrophizing",
+      "content": "Methods to reduce catastrophic thinking, promoting a more balanced perspective.",
+      "pdf": ""
+    },
+    {
+      "id": 4,
+      "image": "../../assets/WorksheetsImgs/goal breakdown.jpg",
+      "title": "Goal Breakdown",
+      "content": "Breaking down long-term goals into manageable steps for progress in depression management.",
+      "pdf": ""
+    },
+    {
+      "id": 5,
+      "image": "../../assets/WorksheetsImgs/goals exploration.jpg",
+      "title": "Goal Exploration",
+      "content": "Discovering and setting meaningful goals aligned with managing depression effectively.",
+      "pdf": ""
+    },
+    {
+      "id": 6,
+      "image": "../../assets/WorksheetsImgs/gratitude exercises.jpg",
+      "title": "Gratitude Exercises",
+      "content": "Practices that cultivate gratitude, aiding in alleviating depressive symptoms.",
+      "pdf": ""
+    },
+    {
+      "id": 7,
+      "image": "../../assets/WorksheetsImgs/gratitude journaling.jpg",
+      "title": "Gratitude Journaling",
+      "content": "Creating a journal to document daily gratitude, enhancing mental well-being.",
+      "pdf": ""
+    },
+    {
+      "id": 8,
+      "image": "../../assets/WorksheetsImgs/letter to my past self.jpg",
+      "title": "Letter to My Past Self",
+      "content": "Writing a compassionate letter to oneself, acknowledging growth and resilience.",
+      "pdf": ""
+    },
+    {
+      "id": 9,
+      "image": "../../assets/WorksheetsImgs/self-care.jpg",
+      "title": "Self Care Assessment",
+      "content": "Assessing and developing a personalized self-care plan for managing depression.",
+      "pdf": ""
+    },
+    {
+      "id": 10,
+      "image": "../../assets/WorksheetsImgs/self esteem journal.jpg",
+      "title": "Self Esteem Journal",
+      "content": "Techniques and prompts to boost self-esteem and confidence in depression management.",
+      "pdf": ""
+    },
+    {
+      "id": 11,
+      "image": "../../assets/WorksheetsImgs/sleep-diary.jpg",
+      "title": "Sleep Diary",
+      "content": "Tracking sleep patterns and habits to improve sleep quality in depression.",
+      "pdf": ""
+    },
+    {
+      "id": 12,
+      "image": "../../assets/WorksheetsImgs/thought log.jpg",
+      "title": "Thought Log",
+      "content": "Recording thoughts and emotions to identify patterns and manage depressive symptoms.",
+      "pdf": ""
+    },    
+    {
+        "id": 13,
+        "image": "../../assets/WorksheetsImgs/mindfullness.jpg",
+        "title": "Mindfulness Exercises",
+        "content": "Practical mindfulness exercises to cultivate awareness and reduce stress in daily life.",
+        "pdf": ""
+    },
+    {
+        "id": 14,
+        "image": "../../assets/WorksheetsImgs/life story.jpg",
+        "title": "Life Story",
+        "content": "Exploring one's life journey and experiences as a therapeutic method for mental health.",
+        "pdf": ""
+    },
+    {
+        "id": 15,
+        "image": "../../assets/WorksheetsImgs/strengths weaknesses.jpg",
+        "title": "My Strengths and Weaknesses",
+        "content": "Self-reflection on personal strengths and weaknesses for self-awareness and growth.",
+        "pdf": ""
+    }
+]
+  

@@ -1,0 +1,229 @@
+/* COMMUNITY PAGE */
+
+.communityMain {
+    height: 100vh;
+}
+
+.startgrpbtn{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background: rgb(183, 233, 234);
+}
+
+.startgrpbtn button{
+    background-color: #0f172a;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.communityTop {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    padding-bottom: 30px;
+    justify-content: center;
+    gap: 1vw;
+    align-items: center;
+}
+
+
+.communityTop::before {
+    z-index: -1;
+    border-radius: 100%;
+    position: absolute;
+    background: rgb(183, 233, 234);
+    right: -200px;
+    left: -200px;
+    top: -200px;
+    content: '';
+    bottom: 0;
+}
+
+.communityTopLeft img {
+    z-index: -0.5;
+    height: 70vh;
+}
+
+.communityTopRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+}
+
+.supportmembers{
+    display: flex;
+}
+
+.supportmembersleft{
+    padding-right: 15px;
+}
+.supportmembersright{
+    border-left: 1.5px solid grey;
+    padding-left: 15px;
+}
+
+
+/* START A NEW GROUP PAGE */
+
+.startgrptop{
+    display: flex;
+    height: 90vh;
+}
+
+.startgrptopleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 40px 40px 100px;
+    gap: 10px;
+}
+
+.startgrptopleft span{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+#grpspan{
+    color: #ff1154;
+}
+
+.startgrptopleft p{
+    line-height: 1.5;
+    color: grey;
+}
+.startgrptopright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.startgrptopright img{
+    width: 90%;
+}
+
+.grpquestioncontainer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    padding: 30px;
+}
+
+.grpques{
+    width: 70%;
+    gap: 20px;
+}
+
+.grpques input{
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #F0F8FF;
+    outline: none;
+}
+
+.tip{
+    width: 30%;
+    align-items: left;
+    padding: 20px;
+    background-color: #F0F8FF;
+    border-radius: 20px;
+
+}
+
+#tipheading{
+    font-weight: 600;
+}
+
+.grpdesccontainer{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    line-height: 1.5;
+    height: auto;
+}
+
+.descques{
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.descques p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.desctip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tip{
+    width: 100%;
+    align-items: left;
+    padding: 20px;
+    background-color: #F0F8FF;
+    border-radius: 20px;
+}
+
+.descContent{
+    min-height: 50vh;
+    height: auto;
+}
+
+.grpguidlines{
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grpbtn{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.grpbtn button{
+    padding: 20px;
+    background-color: #ff1154;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.quesheading{
+    text-align: center;
+    padding: 30px;
+}
+
+.quesheading span{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.quesheading p{
+    line-height: 1.5;
+}

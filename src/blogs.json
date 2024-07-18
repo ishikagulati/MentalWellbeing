@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "image": "blog1.jpg",
+      "title": "Navigating Self-Care: Small Steps, Big Impact",
+      "content": "Self-care isn’t just about spa days; it’s the foundation of mental health. This blog uncovers the power of small, consistent self-care practices. From morning rituals to setting boundaries, discover how these simple steps can profoundly impact your well-being.",
+      "date": "Nov 15, 2023",
+      "upvoteCount": 256
+    },
+    {
+      "id": 2,
+      "image": "blog2.jpg",
+      "title": "The Connection Between Diet and Mental Health",
+      "content": "What we eat affects more than our bodies—it influences our minds too. Explore the intricate relationship between nutrition and mental health. Learn about mood-boosting foods and dietary habits that can support a healthier mindset.",
+      "date": "Oct 28, 2023",
+      "upvoteCount": 198
+    },
+    {
+      "id": 3,
+      "image": "blog3.jpg",
+      "title": "Breaking the Stigma: Opening Up About Depression",
+      "content": "Depression can be isolating, but speaking up is the first step towards healing. In this blog, read personal stories and insights that aim to break the silence around depression. Find encouragement and resources to seek help and support.",
+      "date": "Sep 30, 2023",
+      "upvoteCount": 312
+    },
+    {
+      "id": 4,
+      "image": "blog4.jpg",
+      "title": "The Power of Positive Affirmations",
+      "content": "Harness the transformative potential of positive affirmations. Dive into this blog to understand how affirmations rewired negative thoughts, cultivate self-compassion, and foster a more positive outlook on life.",
+      "date": "Sep 15, 2023",
+      "upvoteCount": 177
+    },
+    {
+      "id": 5,
+      "image": "blog5.jpg",
+      "title": "Overcoming Social Anxiety: Step-by-Step Guide",
+      "content": "Social anxiety can be challenging, but it’s not insurmountable. Explore effective strategies and gradual exposure techniques that help navigate social situations with confidence and ease.",
+      "date": "Aug 25, 2023",
+      "upvoteCount": 241
+    },
+    {
+      "id": 6,
+      "image": "blog6.jpg",
+      "title": "The Impact of Exercise on Mental Health",
+      "content": "Exercise is a powerful tool for mental well-being. Delve into this blog to understand how physical activity boosts mood, reduces stress, and supports overall mental health.",
+      "date": "Jul 30, 2023",
+      "upvoteCount": 198
+    },
+    {
+      "id": 7,
+      "image": "blog7.jpg",
+      "title": "Coping with Grief: Healing After Loss",
+      "content": "Grief is a natural part of life, but navigating it can feel overwhelming. This blog offers guidance on coping mechanisms, honoring emotions, and finding support during the grieving process.",
+      "date": "Jul 10, 2023",
+      "upvoteCount": 289
+    },
+    {
+      "id": 8,
+      "image": "blog8.jpg",
+      "title": "Art Therapy: Expressing Emotions Creatively",
+      "content": "Art therapy is a unique way to process emotions and foster self-expression. Discover how engaging in creative activities can serve as a therapeutic outlet for mental well-being.",
+      "date": "Jun 20, 2023",
+      "upvoteCount": 215
+    },
+    {
+      "id": 9,
+      "image": "blog9.jpg",
+      "title": "Understanding Burnout: Signs and Strategies",
+      "content": "Burnout is increasingly prevalent in today’s fast-paced world. Learn to recognize signs of burnout and explore effective strategies for prevention and recovery.",
+      "date": "May 28, 2023",
+      "upvoteCount": 332
+    },
+    {
+      "id": 10,
+      "image": "blog10.jpg",
+      "title": "Mindful Parenting: Nurturing Your Child’s Mental Health",
+      "content": "Parenting is not only about nurturing a child’s physical health but also their mental well-being. This blog provides insights and tips for incorporating mindfulness into parenting practices.",
+      "date": "May 10, 2023",
+      "upvoteCount": 276
+    },
+    {
+      "id": 11,
+      "image": "blog11.jpg",
+      "title": "Embracing Change: Navigating Life Transitions",
+      "content": "Change can be daunting, but it also brings opportunities for growth. Explore strategies to embrace change positively and navigate life transitions with resilience.",
+      "date": "Apr 18, 2023",
+      "upvoteCount": 189
+    },
+    {
+      "id": 12,
+      "image": "blog12.jpg",
+      "title": "The Importance of Sleep for Mental Health",
+      "content": "Quality sleep is crucial for mental well-being. Dive into this blog to understand the impact of sleep on mental health, along with tips for improving sleep habits.",
+      "date": "Mar 25, 2023",
+      "upvoteCount": 305
+    }
+  ]
+  

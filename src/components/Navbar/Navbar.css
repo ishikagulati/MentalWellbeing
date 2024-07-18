@@ -1,0 +1,215 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #0f172a;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    z-index: 10;
+}
+
+.homepage-navbar {
+    background-color: #f9f8f4;
+}
+
+.navLeft {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.homepage-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.navCenter, .homepage-navCenter {
+    width: 60%;
+}
+
+.navCenter ul, .homepage-navCenter ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.navCenter ul li a {
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.homepage-navCenter ul li a {
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+.navCenter ul li a::after,
+.homepage-navCenter ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navCenter ul li a::after {
+    background-color: white;
+}
+
+.homepage-navCenter ul li a::after {
+    background-color: black;
+}
+
+
+.navCenter ul li a:hover::after,
+.homepage-navCenter ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navRight, .homepage-navRight {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.greetLogout {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    list-style: none;
+    padding: 0;
+}
+
+.homepage-greeting {
+    font-weight: bold;
+}
+
+.greeting {
+    color: white;
+    font-weight: bold;
+}
+
+.homepage-dashIcon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dashIcon {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.homepage-logout {
+    border-radius: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    background-color: #026fff;
+    padding: 2.5%;
+}
+
+.logout {
+    border-radius: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    padding: 2.5%;
+}
+
+.loginSignup, .homepage-loginSignup {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 5rem;
+}
+
+.loginSignup li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.homepage-loginSignup li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 0.5rem;
+    background-color: #026fff;
+}
+
+.homepage-navdropdown, .navdropdown {
+    padding: 1%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 58%;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.homepage-navdropdown{
+    background-color: #026fff;
+}
+
+.navdropdown{
+    background-color: #fff;
+}
+
+.homepage-navdropdown a, .navdropdown a{
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+}
+
+.homepage-navdropdown a, .navdropdown a{
+    color: #fff;
+}
+
+.navdropdown a {
+    color: #0f172a;
+}
+
+.homepage-navdropdown a:hover{
+    background: #b3d4ff;
+    color: #0f172a;
+    border-radius: 10px;
+}
+
+.navdropdown a:hover{
+    background: #0f172a;
+    color: #fff;
+    border-radius: 10px;
+}

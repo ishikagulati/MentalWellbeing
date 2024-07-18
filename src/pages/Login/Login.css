@@ -1,0 +1,74 @@
+.main {
+    height: 90vh;
+    display: flex;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 5vh;
+}
+
+.details form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+
+.details form input {
+    padding-left: 2%;
+    height: 4.5vh;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.details form button {
+    height: 5.5vh;
+    background-color: #C6ECFF;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.details form button:hover {
+    background-color: #9fd9f6;
+}
+
+.loginImage img {
+    width: 40vw;
+    height: 50vh;
+    border-radius: 30px;
+}
+
+.loginImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 50%;
+    background-color: #C6ECFF;
+}
+
+.registerLink {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.registerLink a {
+    text-decoration: none;
+    color: black;
+}
+
+.registerLink a:hover {
+    font-weight: bold;
+}
+
+#registerButton {
+    text-decoration: none;
+    color: black;
+}

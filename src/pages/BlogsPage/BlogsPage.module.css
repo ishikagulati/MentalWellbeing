@@ -1,0 +1,138 @@
+
+
+/* BLOGS PAGE */
+
+.blogsWrapper {
+    background-color: rgba(214, 241, 245, 0.534);
+    padding: 10px 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    min-height: 100vh;
+    height: auto;
+  }
+  
+  .newBlogbtn{
+    background-color: rgba(214, 241, 245, 0.534);
+    padding: 30px 60px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+  }
+  
+  .newBlogbtn button{
+    background-color: #EEF2FF;
+      border-radius: 8px;
+      box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+      color: #536DFE;
+      cursor: pointer;
+      border: 2px solid #536DFE;
+      line-height: 1.5;
+      padding: 10px 20px 10px 20px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  
+  /* UPLOAD PAGE */
+  
+  .UploadPageContainer{
+    background-color: rgba(214, 241, 245, 0.534);
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.5;
+  }
+  
+  #guideheading, .UploadPageContainer h1{
+    color: #536DFE;
+  }
+  
+  .UploadPageContainer ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .UploadPageContainer ol li span{
+    font-weight: 600;
+  }
+  
+  .Blogques{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .Blogques input{
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .Blogques select{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  .BlogContent{
+    height: auto;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .publishBlogbtn{
+    
+    padding: 30px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .publishBlogbtn button{
+    background-color: #EEF2FF;
+      border-radius: 8px;
+      box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+      color: #536DFE;
+      cursor: pointer;
+      border: 2px solid #536DFE;
+      line-height: 1.5;
+      padding: 10px 20px 10px 20px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  
+  /* FILE UPLOAD */
+  
+  .FileUpload{
+    border: 3px dashed #ccc;
+    border-radius: 15px;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: #e9e9eb;
+  }
+  
+  .FileUpload p span{
+    color: #536DFE;
+  }

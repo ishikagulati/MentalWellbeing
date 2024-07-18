@@ -1,0 +1,61 @@
+/* Groups Card CSS */
+
+.communityBottom {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 50% 50%;
+    padding: 40px;
+}
+
+.groupcardcontainer{
+    padding: 20px;
+    height: auto;
+    gap: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.3s ease;
+}
+
+.groupcardcontainer:hover{
+    transform: translateY(-10px);
+}
+
+.groupcardtitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.groupcardsubtitle{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.cardbox{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    gap: 5px;
+}
+
+#grpmembers{
+    padding-left: 10px;
+}
+
+#grporganizer{
+    font-weight: 600;
+}
+
+.groupcardbutton button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}

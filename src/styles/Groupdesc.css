@@ -1,0 +1,461 @@
+.grpdescbackcontainer {
+    background: #f9f8f4;
+    height: auto;
+}
+
+.descheader {
+    justify-content: space-around;
+    display: flex;
+    padding: 50px 20px 40px 20px;
+    margin: auto;
+}
+
+.descheading {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.descheading p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.joinbutton {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: center;
+}
+
+.joinbutton button {
+    background-color: #EEF2FF;
+    border-radius: 8px;
+    box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    color: #536DFE;
+    cursor: pointer;
+    border: 2px solid #536DFE;
+    line-height: 1.5;
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.topicsSection {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.topicsSection p {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.topicboxes {
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+#topicbox {
+    padding: 10px;
+    background-color: #dbedf0;
+    border-radius: 10px;
+    width: auto;
+}
+
+
+/* TOPBAR CSS */
+
+.groupelements ul {
+    display: flex;
+    background-color: #e9e9eb;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    color: grey;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.groupelements ul li {
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.groupelements ul li:hover {
+    color: black;
+}
+
+.groupelements ul li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    background-color: orange;
+}
+
+.groupelements ul li:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: black;
+}
+
+
+/* ABOUT SECTION */
+
+.grpaboutcontainer {
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+    padding: 10px;
+    min-height: 60vh;
+}
+
+.grpaboutcontainer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.grpreviewcontainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.grpeventscontainer h1,
+.grpeventscontainer h3,
+.grpreviewcontainer h1 {
+    opacity: 0.2;
+}
+
+
+/* POSTS SECTION */
+
+.grppostcontainer {
+    width: 80%;
+    margin: auto;
+}
+
+.newpostcontainer {
+    background-color: #dbedf0;
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.newpostcontainer textarea {
+    min-height: 20vh;
+    background-color: #fafafa;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#postbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#postbutton button {
+    padding: 10px 40px 10px 40px;
+    background-color: blue;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+#postheading {
+    font-size: 1.5rem;
+}
+
+.postcontainer {
+    padding: 20px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.postheader {
+    display: flex;
+    align-items: center;
+}
+
+.postname {
+    padding: 10px;
+    gap: 20px;
+}
+
+.postusername {
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.postimg i {
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 42px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.postTime {
+    color: grey;
+}
+
+.postcontainer p {
+    padding: 20px;
+}
+
+.allpostscontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.likecomment {
+    display: flex;
+    width: 20%;
+    gap: 20px;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.heart-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* POST SECTION : COMMENTS */
+
+#commenticon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comments-part {
+    padding-top: 2%;
+}
+
+.commentscontainer {
+    width: 80%;
+    margin: auto;
+}
+
+.onecommentcontainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.commentheader {
+    background-color: #f2f2f2;
+    width: 90%;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.loadmorecomments {
+    padding: 10px;
+}
+
+.loadmorecomments button {
+    background: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+}
+
+.commentInput {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 20px auto auto auto;
+}
+
+.commentInput input {
+    width: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 10px 0px 0px 10px;
+    padding: 15px;
+}
+
+.commentInput button {
+    background-color: #f2f2f2;
+    color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+
+/* POST SECTION : HEART ICON*/
+
+.heart-container {
+    --heart-color: rgb(255, 91, 137);
+    position: relative;
+    width: 25px;
+    height: 30px;
+    transition: .3s;
+    display: flex;
+}
+
+.heart-container .checkbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.heart-container .svg-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart-container .svg-outline,
+.heart-container .svg-filled {
+    fill: var(--heart-color);
+    position: absolute;
+}
+
+.heart-container .svg-filled {
+    animation: keyframes-svg-filled 2s;
+    display: none;
+}
+
+.heart-container .svg-celebrate {
+    position: absolute;
+    animation: keyframes-svg-celebrate .5s;
+    animation-fill-mode: forwards;
+    display: none;
+    stroke: var(--heart-color);
+    fill: var(--heart-color);
+    stroke-width: 0px;
+}
+
+.heart-container .checkbox:checked~.svg-container .svg-filled {
+    display: block
+}
+
+.heart-container .checkbox:checked~.svg-container .svg-celebrate {
+    display: block
+}
+
+/* CHAT SECTION */
+
+.grpchatcontainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+}
+
+#grpchatheading {
+    text-align: center;
+}
+
+.grpchatcontainer ol li {
+    line-height: 1.5;
+}
+
+.grpchatcontainer ol li span {
+    font-weight: 600;
+}
+
+.joinchatbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joinchatbutton button {
+    background-color: #ffe6ed;
+    border-radius: 8px;
+    box-shadow: rgb(255, 204, 218) 0 2px 4px, rgb(255, 204, 218) 0 7px 13px -3px, #ffb3c8 0 -3px 0 inset;
+    color: #ff1154;
+    cursor: pointer;
+    border: 2px solid #ff1154;
+    line-height: 1.5;
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+/* EVENTS SECTION */
+
+.grpeventscontainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.eventbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.eventbutton button {
+    background-color: #EEF2FF;
+    border-radius: 8px;
+    box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    color: #536DFE;
+    cursor: pointer;
+    border: 2px solid #536DFE;
+    line-height: 1.5;
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}

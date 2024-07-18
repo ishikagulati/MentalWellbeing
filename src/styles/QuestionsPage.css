@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+}
+
+.radio-parent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.questionPart {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.radioOptions {
+    display: flex;
+    gap: 10vw;
+    font-size: 1.5em;
+}
+
+.radio-parent button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 1.5%;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #0f172a;
+}
+
+.mainQuestion {
+    font-size: 3em;  
+}
+
+.singleRadio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.assessmentHead {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.nextArrow {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#result button {
+    font-size: 1.1em;
+    padding: 1.5%;
+    border-radius: 20px;
+    border: none;
+    background-color: #0f172a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+@keyframes animate{ 
+    0%{ 
+      opacity: 0; 
+    } 
+    50%{ 
+      opacity: 0.7; 
+    } 
+    100%{ 
+      opacity: 0; 
+    } 
+  } 
+
+  .loader-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.834);
+    z-index: 1;
+}
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #3d5af1 transparent #3d5af1 transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* SLIDE */
+
+.content {
+    width: 85%;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+  
+.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.mainQuestionsBar {
+    width: 100%;
+    display: flex;
+    height: 2.1vh;
+    gap: 10px;
+}
+
+.questionsCompletedBar {
+    border-radius: 10px;
+    margin-left: 15%;
+    width: 67%;
+    border: 1px solid #0f172a;
+}
+
+.innerQuestionsBar {
+    border-radius: 10px;
+    background-color: #0f172a;
+    transition: all 0.3s ease;
+}

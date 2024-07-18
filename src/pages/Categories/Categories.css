@@ -1,0 +1,94 @@
+.categoryMain {
+    height: 100vh;
+}
+
+.categoryTop {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 45vh;
+    justify-content: center;
+    gap: 10vw;
+    align-items: center;
+}
+  
+.categoryTop::before {
+    z-index: -1;
+    border-radius: 100%;
+    position: absolute;
+    background: rgb(183,233,234);
+    right: -200px;
+    left: -200px;
+    top: -200px;
+    content: '';
+    bottom: 0;
+}
+
+.categoryTopLeft img {
+    z-index: -0.5;
+    height: 30vh;
+}
+
+.categoryTopRight {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.categoryBottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.categoryButtons {
+    position: relative;
+    height: 10vh;
+    width: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categoryButtons button {
+    width: 180px;
+    height: 90px;
+    background: #0f172a;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+    transform-origin: left center;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.4s cubic-bezier(0.72, -0.59, 0.16, 1.53);
+}
+
+.mentalButton {
+    transform: scale(0.7) perspective(102px) rotateY(-3deg) !important;
+    filter: blur(2px) brightness(1.5) !important;
+    z-index: 3 !important;
+    left: -120px !important;
+}
+
+.physicalButton {
+    transform: scale(1) perspective(102px) rotateY(-3deg) !important;
+    filter: blur(0) brightness(1) !important;
+    z-index: 4 !important;
+}
+
+.categoryButtons button:first-child {
+    transform: perspective(102px) rotateY(3deg);
+    left: -150px;
+    z-index: 2;
+}
+
+.categoryButtons button:last-child {
+    transform: scale(0.7) perspective(102px) rotateY(3deg);
+    filter: blur(2px) brightness(1.5);
+    left: -10px;
+    z-index: 1;
+}

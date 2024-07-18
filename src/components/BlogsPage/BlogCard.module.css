@@ -1,0 +1,74 @@
+.blogCard {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    height: auto;
+  }
+  
+  .blogCard img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .blogCard h4 {
+    font-size: 1.35rem;
+    margin-bottom: 10px;
+    text-wrap: wrap;
+  }
+  
+  .cardBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgb(124, 124, 124);
+  }
+  
+  .cardBottom p {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cardBottom svg {
+    margin-right: 5px;
+    color: rgb(0, 26, 255);
+  }
+  
+  .blogCard a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    justify-content: flex-end;
+    color: rgb(0, 26, 255);
+  }
+  
+  .cardAuthor {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .cardAuthor i {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 18px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-style: normal;
+    text-transform: uppercase;
+    background-color: yellowgreen;
+  }
+  
+  .cardAuthor p{
+    font-size: 1rem;
+  }
+  

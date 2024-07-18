@@ -1,0 +1,21 @@
+.mainCategoryPage {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 40vw;
+    border-radius: 30px;
+    padding: 8px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.leftPart img {
+    height: 18vh;
+    width: 10vw;
+    border-radius: 25px;
+}
+
+.arrowIcon {
+    float: left;
+}
